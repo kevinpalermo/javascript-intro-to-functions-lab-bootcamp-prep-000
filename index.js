@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function shout(string) {
   return string.toUpperCase()
 }
@@ -26,3 +27,23 @@ function sayHiToGrandma(string) {
   }
 }
 
+=======
+function shout(string)
+{return string.toUpperCase()}
+function whisper(string)
+{return string.toLowerCase()}
+function logShout(string) 
+{console.log('HELLO')}
+function logWhisper(string)
+{console.log('hello')}
+var uppercase = 'HELLO!'
+uppercase.toUpperCase === uppercase
+var lowercase = 'hello!'
+lowercase.toLowerCase === lowercase
+var mixedCase = 'Hi there!'
+mixedCase.toUpperCase === mixedCase
+mixedCase.toLowerCase === mixedCase
+var spongebob = 'I can\'t hear you!'
+function sayHiToGrandma(string)
+{if string===lowercase { return spongebob}
+>>>>>>> da307975f09fcf83c04a7faf01b75f716ec4f65e
